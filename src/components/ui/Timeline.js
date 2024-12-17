@@ -4,7 +4,9 @@ export default function Timeline({ data }) {
   return (
     <div id="timeline" className="rounded-lg bg-white border w-full">
       <div className="p-4 text-center">
-        <span className="text-neutral-700">Время</span>
+        <span className="text-lg font-bold text-neutral-700">
+          Изменения сети в дискретном времени
+        </span>
       </div>
       <div className="w-full overflow-x-scroll">
         <div className="w-fit">
@@ -15,8 +17,8 @@ export default function Timeline({ data }) {
                 key={index}
                 className="p-4 flex flex-col items-center rounded-lg border"
               >
-                <div className="pointer-events-none">{step.element}</div>
-                <span className="mt-2 text-xs text-neutral-700">
+                <div className="overflow-clip">{step.element}</div>
+                <span className="mt-2 text-md text-neutral-700">
                   {step.title}
                 </span>
               </div>
