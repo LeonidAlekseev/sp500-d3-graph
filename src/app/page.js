@@ -1,5 +1,4 @@
 import Timeline from "@/components/ui/Timeline";
-import LinePlot from "@/components/plot/Line";
 import GraphPlot from "@/components/plot/Graph";
 
 const Page = () => {
@@ -42,63 +41,50 @@ const Page = () => {
   ];
 
   const timelineData = [
-    // {
-    //   title: "test",
-    //   element: (
-    //     <LinePlot
-    //       data={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
-    //       width={200}
-    //       height={150}
-    //     />
-    //   ),
-    // },
     {
       title: "2018",
-      element: (
-        <GraphPlot nodes={nodes} links={links} width={200} height={150} />
-      ),
+      element: <GraphPlot nodes={nodes} links={links} />,
     },
     {
       title: "2019",
-      element: (
-        <GraphPlot nodes={nodes} links={links} width={200} height={150} />
-      ),
+      element: <GraphPlot nodes={nodes} links={links} />,
     },
     {
       title: "2020",
-      element: (
-        <GraphPlot nodes={nodes} links={links} width={200} height={150} />
-      ),
+      element: <GraphPlot nodes={nodes} links={links} />,
     },
     {
       title: "2021",
-      element: (
-        <GraphPlot nodes={nodes} links={links} width={200} height={150} />
-      ),
+      element: <GraphPlot nodes={nodes} links={links} />,
     },
     {
       title: "2022",
-      element: (
-        <GraphPlot nodes={nodes} links={links} width={200} height={150} />
-      ),
+      element: <GraphPlot nodes={nodes} links={links} />,
     },
     {
       title: "2023",
-      element: (
-        <GraphPlot nodes={nodes} links={links} width={200} height={150} />
-      ),
+      element: <GraphPlot nodes={nodes} links={links} />,
     },
     {
       title: "2024",
-      element: (
-        <GraphPlot nodes={nodes} links={links} width={200} height={150} />
-      ),
+      element: <GraphPlot nodes={nodes} links={links} />,
     },
   ];
 
   return (
     <div>
-      <h1 className="text-xl font-bold mb-4">Граф финансовых активов</h1>
+      <h1 className="text-xl font-bold mb-4">
+        Анализ динамической сети акций S&P 500 на основе корреляции: построение
+        и визуализация графовой модели
+      </h1>
+      <div className="mb-4">
+        <span>
+          В данном проекте проводится анализ динамической сети акций компаний,
+          входящих в индекс S&P 500, с использованием графовой модели. Основной
+          целью является выявление и визуализация взаимосвязей между акциями на
+          основе их корреляции в изменяющихся рыночных условиях.
+        </span>
+      </div>
       <Timeline data={timelineData} />
     </div>
   );
