@@ -111,12 +111,6 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
 
     // Обновление позиций узлов и связей на каждом шаге симуляции
     simulation.on("tick", () => {
-      link
-        .attr("x1", (d) => d.source.x)
-        .attr("y1", (d) => d.source.y)
-        .attr("x2", (d) => d.target.x)
-        .attr("y2", (d) => d.target.y);
-
       node
         .attr("cx", (d) => {
           // Ограничение по оси X
@@ -128,6 +122,12 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
           d.y = Math.max(20, Math.min(height - 20, d.y));
           return d.y;
         });
+
+      link
+        .attr("x1", (d) => d.source.x)
+        .attr("y1", (d) => d.source.y)
+        .attr("x2", (d) => d.target.x)
+        .attr("y2", (d) => d.target.y);
     });
 
     simulation.stop();
