@@ -17,7 +17,7 @@ export default function Timeline({ data }) {
                 key={index}
                 className="p-4 flex flex-col items-center rounded-lg border"
               >
-                <div className="overflow-clip">{step.element}</div>
+                {step.element}
                 <span className="mt-2 text-md text-neutral-700">
                   {step.title}
                 </span>

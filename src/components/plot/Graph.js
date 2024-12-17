@@ -92,18 +92,16 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
         tooltip
           .style("visibility", "visible")
           .html(
-            `Тикер: ${d.id}<br>Компания: ${d.name}<br>Сектор: ${
-              d.sector
-            }<br>Объем: $${formatter.format(d.totalVolume)}`
+            `Тикер: ${d.id}<br>Объем: $${formatter.format(
+              d.totalVolume
+            )}<br>Сектор: ${d.sector}<br>Компания: ${d.name}`
           );
       })
       .on("mousemove", (event) => {
-        // TODO: Переместить tooltip в основную страницу за пределы
-        // relative родительского блока и убрать смещение
         console.log(event);
         tooltip
           .style("top", event.layerY + 20 + "px")
-          .style("left", event.layerX - 100 + "px");
+          .style("left", event.layerX - 150 + "px");
       })
       .on("mouseout", () => {
         tooltip.style("visibility", "hidden");
@@ -153,7 +151,7 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
   }, [nodes, links, width, height]);
 
   return (
-    <div className="relative">
+    <div>
       <div className="flex gap-2">
         <button className="mb-2" onClick={startSimulation}>
           <Image
@@ -176,17 +174,20 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
           />
         </button>
       </div>
-      <svg
-        ref={svgRef}
-        width={width}
-        height={height}
-        style={{ visibility: "hidden" }}
-      />
-      <span
-        ref={tooltipRef}
-        className="absolute p-2 rounded border bg-gray-100 bg-opacity-80 backdrop-blur-sm"
-        style={{ visibility: "hidden" }}
-      ></span>
+      <div className="relative">
+        <svg
+          ref={svgRef}
+          width={width}
+          height={height}
+          style={{ visibility: "hidden" }}
+        />
+        <div className="absolute top-0 left-0 pointer-events-none w-[500px] h-[500px] shadow-[inset_0_0_3px_3px_rgba(255,255,255,1)]"></div>
+        <span
+          ref={tooltipRef}
+          className="absolute w-[300px] p-2 rounded border bg-gray-100 bg-opacity-80 backdrop-blur-sm"
+          style={{ visibility: "hidden" }}
+        ></span>
+      </div>
     </div>
   );
 }
