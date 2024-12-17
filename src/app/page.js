@@ -72,7 +72,7 @@ const Page = () => {
       {loading ? (
         <Spinner />
       ) : error ? (
-        <span>Ошибка</span>
+        <span className="p-4">Ошибка</span>
       ) : (
         <Timeline data={timelineData} />
       )}

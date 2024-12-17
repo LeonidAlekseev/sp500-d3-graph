@@ -77,7 +77,7 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
       .selectAll()
       .data(nodes)
       .join("circle")
-      .attr("r", (d) => Math.log(d.totalVolume) - 15 || 5)
+      .attr("r", (d) => Math.max(5, Math.log(d.totalVolume) - 15) || 5)
       .attr("fill", (d) => color(d.sectorId) || "#2077B4")
       .attr("stroke", "#fff")
       .attr("stroke-width", 1.5)
@@ -99,8 +99,8 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
       })
       .on("mousemove", (event) => {
         tooltip
-          .style("top", event.pageY + 5 + "px")
-          .style("left", event.pageX + 5 + "px");
+          .style("top", event.pageY - 120 + "px")
+          .style("left", event.pageX - 100 + "px");
       })
       .on("mouseout", () => {
         tooltip.style("visibility", "hidden");
