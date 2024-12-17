@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Timeline({ data }) {
   return (
-    <div id="timeline" className="w-full">
+    <>
       <div className="p-4 text-center">
         <span className="text-lg font-bold text-neutral-700">
           Изменения сети в дискретном времени
         </span>
       </div>
-      <div className="w-full overflow-x-scroll">
+      <div className="w-screen overflow-x-scroll overscroll-x-none">
         <div className="w-fit">
           <div className="w-[100%] h-[5px] bg-gradient-to-r from-neutral-300 to-neutral-600"></div>
           <div className="p-4 flex justify-between gap-4">
@@ -26,6 +26,6 @@ export default function Timeline({ data }) {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
