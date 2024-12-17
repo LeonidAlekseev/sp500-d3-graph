@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Timeline({ data }) {
   return (
-    <div id="timeline" className="rounded-lg bg-white border w-full">
+    <div id="timeline" className="w-full">
       <div className="p-4 text-center">
         <span className="text-lg font-bold text-neutral-700">
           Изменения сети в дискретном времени

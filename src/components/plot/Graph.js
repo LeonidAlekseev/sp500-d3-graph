@@ -7,7 +7,7 @@ import Image from "next/image";
 const formatter = new Intl.NumberFormat("de-DE");
 const color = d3.scaleOrdinal(d3.schemeCategory10);
 
-export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
+export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
   const svgRef = useRef();
   const simulationRef = useRef();
   const tooltipRef = useRef();
