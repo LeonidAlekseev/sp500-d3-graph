@@ -54,7 +54,7 @@ const Page = () => {
   }));
 
   return (
-    <div>
+    <main>
       <h1 className="text-xl font-bold mb-4">
         Анализ динамической сети акций S&P 500 на основе корреляции: построение
         и визуализация графовой модели
@@ -74,7 +74,7 @@ const Page = () => {
       ) : (
         <Timeline data={timelineData} />
       )}
-    </div>
+    </main>
   );
 };
 
