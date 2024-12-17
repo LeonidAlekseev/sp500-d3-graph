@@ -2,6 +2,7 @@
 
 import * as d3 from "d3";
 import { useRef, useEffect } from "react";
+import Image from "next/image";
 
 const color = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -134,7 +135,14 @@ export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
   return (
     <div>
       <button className="mb-2" onClick={resetZoom}>
-        🔄
+        <Image
+          className="dark:invert"
+          src="/eye.svg"
+          alt="Сбросить отображение"
+          width={24}
+          height={24}
+          priority
+        />
       </button>
       <svg ref={svgRef} width={width} height={height} />
       <div
