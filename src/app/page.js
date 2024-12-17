@@ -46,8 +46,8 @@ const Page = () => {
     fetchData();
   }, []);
 
-  // const years = Object.keys(nodes);
-  const years = [2021, 2022, 2023, 2024];
+  const years = Object.keys(nodes);
+  // const years = [2021, 2022, 2023, 2024];
   const timelineData = years.map((year) => ({
     title: year,
     element: <GraphPlot nodes={nodes[year]} links={links[year]} />,
