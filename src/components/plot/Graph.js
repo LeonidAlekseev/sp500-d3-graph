@@ -1,15 +1,28 @@
 "use client";
 
 import * as d3 from "d3";
-import { useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 
+const formatter = new Intl.NumberFormat("de-DE");
 const color = d3.scaleOrdinal(d3.schemeCategory10);
 
 export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
   const svgRef = useRef();
+  const simulationRef = useRef();
   const tooltipRef = useRef();
   const zoomRef = useRef();
+  const [isRunning, setIsRunning] = useState(false);
+
+  const startSimulation = () => {
+    setIsRunning(true);
+    simulationRef.current.alpha(1.0).restart(); // Запускаем симуляцию
+    svgRef.current.style.visibility = "visible";
+  };
+
+  const resetZoom = () => {
+    d3.select(svgRef.current).call(zoomRef.current.transform, d3.zoomIdentity);
+  };
 
   useEffect(() => {
     const svg = d3.select(svgRef.current);
@@ -68,7 +81,6 @@ export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
       .attr("fill", (d) => color(d.sectorId) || "#2077B4")
       .attr("stroke", "#fff")
       .attr("stroke-width", 1.5)
-      .attr("title", (d) => d.name)
       .call(
         d3
           .drag()
@@ -77,7 +89,13 @@ export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
           .on("end", dragended)
       )
       .on("mouseover", (event, d) => {
-        tooltip.style("visibility", "visible").text(d.name);
+        tooltip
+          .style("visibility", "visible")
+          .html(
+            `Тикер: ${d.id}<br>Компания: ${
+              d.name
+            }<br>Объем: $${formatter.format(d.totalVolume)}`
+          );
       })
       .on("mousemove", (event) => {
         tooltip
@@ -109,9 +127,12 @@ export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
         });
     });
 
+    simulation.stop();
+    simulationRef.current = simulation;
+
     // Функции для перетаскивания узлов
     function dragstarted(event, d) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
+      if (!event.active) simulation.alphaTarget(0.1).restart();
       d.fx = d.x;
       d.fy = d.y;
     }
@@ -128,28 +149,41 @@ export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
     }
   }, [nodes, links, width, height]);
 
-  const resetZoom = () => {
-    d3.select(svgRef.current).call(zoomRef.current.transform, d3.zoomIdentity);
-  };
-
   return (
     <div>
-      <button className="mb-2" onClick={resetZoom}>
-        <Image
-          className="dark:invert"
-          src="/eye.svg"
-          alt="Сбросить отображение"
-          width={24}
-          height={24}
-          priority
-        />
-      </button>
-      <svg ref={svgRef} width={width} height={height} />
-      <div
+      <div className="flex gap-2">
+        <button className="mb-2" onClick={startSimulation}>
+          <Image
+            className="dark:invert"
+            src="/play.svg"
+            alt="Сбросить отображение"
+            width={24}
+            height={24}
+            priority
+          />
+        </button>
+        <button className="mb-2" onClick={resetZoom}>
+          <Image
+            className="dark:invert"
+            src="/eye.svg"
+            alt="Сбросить отображение"
+            width={24}
+            height={24}
+            priority
+          />
+        </button>
+      </div>
+      <svg
+        ref={svgRef}
+        width={width}
+        height={height}
+        style={{ visibility: "hidden" }}
+      />
+      <span
         ref={tooltipRef}
         className="absolute p-2 rounded border bg-gray-100 bg-opacity-80 backdrop-blur-sm"
         style={{ visibility: "hidden" }}
-      />
+      ></span>
     </div>
   );
 }
