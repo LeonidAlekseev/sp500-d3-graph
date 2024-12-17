@@ -98,9 +98,12 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
           );
       })
       .on("mousemove", (event) => {
+        // TODO: Переместить tooltip в основную страницу за пределы
+        // relative родительского блока и убрать смещение
+        console.log(event);
         tooltip
-          .style("top", event.pageY - 120 + "px")
-          .style("left", event.pageX - 100 + "px");
+          .style("top", event.layerY + 20 + "px")
+          .style("left", event.layerX - 100 + "px");
       })
       .on("mouseout", () => {
         tooltip.style("visibility", "hidden");
@@ -150,7 +153,7 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
   }, [nodes, links, width, height]);
 
   return (
-    <div>
+    <div className="relative">
       <div className="flex gap-2">
         <button className="mb-2" onClick={startSimulation}>
           <Image
