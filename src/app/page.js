@@ -1,75 +1,64 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Timeline from "@/components/ui/Timeline";
 import GraphPlot from "@/components/plot/Graph";
 
 const Page = () => {
-  const nodes = [
-    { id: "AAPL", name: "Apple Inc." },
-    { id: "MSFT", name: "Microsoft Corp." },
-    { id: "GOOGL", name: "Alphabet Inc." },
-    { id: "AMZN", name: "Amazon.com Inc." },
-    { id: "TSLA", name: "Tesla Inc." },
-    { id: "FB", name: "Meta Platforms Inc." },
-    { id: "NFLX", name: "Netflix Inc." },
-    { id: "NVDA", name: "NVIDIA Corp." },
-    { id: "ADBE", name: "Adobe Inc." },
-    { id: "INTC", name: "Intel Corp." },
-    { id: "CSCO", name: "Cisco Systems Inc." },
-    { id: "ORCL", name: "Oracle Corp." },
-    { id: "IBM", name: "IBM Corp." },
-    { id: "PYPL", name: "PayPal Holdings Inc." },
-    { id: "CRM", name: "Salesforce.com Inc." },
-  ];
+  const [nodes, setNodes] = useState([]);
+  const [links, setLinks] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  const links = [
-    { source: "AAPL", target: "MSFT" },
-    { source: "AAPL", target: "GOOGL" },
-    { source: "MSFT", target: "GOOGL" },
-    { source: "AMZN", target: "TSLA" },
-    { source: "TSLA", target: "AAPL" },
-    { source: "FB", target: "GOOGL" },
-    { source: "NFLX", target: "AMZN" },
-    { source: "NVDA", target: "AAPL" },
-    { source: "ADBE", target: "MSFT" },
-    { source: "INTC", target: "NVDA" },
-    { source: "CSCO", target: "FB" },
-    { source: "ORCL", target: "MSFT" },
-    { source: "IBM", target: "GOOGL" },
-    { source: "PYPL", target: "AMZN" },
-    { source: "CRM", target: "MSFT" },
-    { source: "AAPL", target: "FB" },
-    { source: "TSLA", target: "NVDA" },
-  ];
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const nodesResponse = await fetch(
+          `${process.env.NEXT_PUBLIC_URL}/api/nodes`,
+          {
+            method: "GET",
+          }
+        );
+        const linksResponse = await fetch(
+          `${process.env.NEXT_PUBLIC_URL}/api/links`,
+          {
+            method: "GET",
+          }
+        );
 
-  const timelineData = [
-    {
-      title: "2018",
-      element: <GraphPlot nodes={nodes} links={links} />,
-    },
-    {
-      title: "2019",
-      element: <GraphPlot nodes={nodes} links={links} />,
-    },
-    {
-      title: "2020",
-      element: <GraphPlot nodes={nodes} links={links} />,
-    },
-    {
-      title: "2021",
-      element: <GraphPlot nodes={nodes} links={links} />,
-    },
-    {
-      title: "2022",
-      element: <GraphPlot nodes={nodes} links={links} />,
-    },
-    {
-      title: "2023",
-      element: <GraphPlot nodes={nodes} links={links} />,
-    },
-    {
-      title: "2024",
-      element: <GraphPlot nodes={nodes} links={links} />,
-    },
-  ];
+        if (!nodesResponse.ok || !linksResponse.ok) {
+          throw new Error("Ошибка при загрузке данных");
+        }
+
+        const nodesData = await nodesResponse.json();
+        const linksData = await linksResponse.json();
+
+        setNodes(nodesData);
+        setLinks(linksData);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return <div>Загрузка...</div>;
+  }
+
+  if (error) {
+    return <div>Ошибка: {error}</div>;
+  }
+
+  // const years = Object.keys(nodes);
+  const years = [2021, 2022, 2023, 2024];
+  const timelineData = years.map((year) => ({
+    title: year,
+    element: <GraphPlot nodes={nodes[year]} links={links[year]} />,
+  }));
 
   return (
     <div>
