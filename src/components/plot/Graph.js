@@ -92,8 +92,8 @@ export default function GraphPlot({ nodes, links, width = 600, height = 600 }) {
         tooltip
           .style("visibility", "visible")
           .html(
-            `Тикер: ${d.id}<br>Компания: ${
-              d.name
+            `Тикер: ${d.id}<br>Компания: ${d.name}<br>Сектор: ${
+              d.sector
             }<br>Объем: $${formatter.format(d.totalVolume)}`
           );
       })
