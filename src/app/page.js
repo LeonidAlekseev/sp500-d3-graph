@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Timeline from "@/components/ui/Timeline";
 import GraphPlot from "@/components/plot/Graph";
+import Spinner from "@/components/ui/Loader";
 
 const Page = () => {
   const [nodes, setNodes] = useState([]);
@@ -45,14 +46,6 @@ const Page = () => {
     fetchData();
   }, []);
 
-  if (loading) {
-    return <div>Загрузка...</div>;
-  }
-
-  if (error) {
-    return <div>Ошибка: {error}</div>;
-  }
-
   // const years = Object.keys(nodes);
   const years = [2021, 2022, 2023, 2024];
   const timelineData = years.map((year) => ({
@@ -74,7 +67,13 @@ const Page = () => {
           основе их корреляции в изменяющихся рыночных условиях.
         </span>
       </div>
-      <Timeline data={timelineData} />
+      {loading ? (
+        <Spinner />
+      ) : error ? (
+        <span>Ошибка</span>
+      ) : (
+        <Timeline data={timelineData} />
+      )}
     </div>
   );
 };
