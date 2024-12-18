@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Timeline from "@/components/ui/Timeline";
 import GraphPlot from "@/components/plot/Graph";
 import Spinner from "@/components/ui/Loader";
+import Accordion from "@/components/ui/Accordion";
 
 const Page = () => {
   const [nodes, setNodes] = useState([]);
@@ -53,21 +54,68 @@ const Page = () => {
     element: <GraphPlot nodes={nodes[year]} links={links[year]} />,
   }));
 
+  const infoAccordionItems = [
+    {
+      title: "1. Описание графовой модели структуры сети",
+      content: (
+        <>
+          <p>Тут будет текст</p>
+          <p>Тут будет текст</p>
+        </>
+      ),
+    },
+    {
+      title: "2. Качественный анализ изменений решения оптимизационной задачи",
+      content: (
+        <>
+          <p>Тут будет текст</p>
+          <p>Тут будет текст</p>
+        </>
+      ),
+    },
+    {
+      title:
+        "3. Количественный анализ изменений решения оптимизационной задачи",
+      content: (
+        <>
+          <p>Тут будет текст</p>
+          <p>Тут будет текст</p>
+        </>
+      ),
+    },
+    {
+      title: "4. Интерпретация изменений решения оптимизационной задачи",
+      content: (
+        <>
+          <p>Тут будет текст</p>
+          <p>Тут будет текст</p>
+        </>
+      ),
+    },
+    {
+      title: "5. Отчет о технической реализации",
+      content: (
+        <>
+          <p>Тут будет текст</p>
+          <p>Тут будет текст</p>
+        </>
+      ),
+    },
+  ];
+
   return (
     <main>
       <div className="p-4">
         <h1 className="text-xl font-bold mb-4">
-          Анализ динамической сети акций S&P 500 на основе корреляции:
-          построение и визуализация графовой модели
+          Анализ динамической сети акций индекса S&P 500
         </h1>
         <div className="mb-4">
           <span>
-            В данном проекте проводится анализ динамической сети акций компаний,
-            входящих в индекс S&P 500, с использованием графовой модели.
-            Основной целью является выявление и визуализация взаимосвязей между
-            акциями на основе их корреляции в изменяющихся рыночных условиях.
+            Проект подготовлен Алексеевым Леонидом Владимировичем, студентом
+            группы МО23-1М Финансового университета при правительстве РФ.
           </span>
         </div>
+        <Accordion lassName="mb-4" items={infoAccordionItems} />
       </div>
       {loading ? (
         <Spinner />
