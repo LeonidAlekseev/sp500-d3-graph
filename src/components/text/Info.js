@@ -1091,7 +1091,7 @@ export const infoAccordionItems = [
       <>
         <br />
         <p>
-          <strong>Введение</strong>
+          <strong>Введение:</strong>
         </p>
         <br />
 
@@ -1106,7 +1106,7 @@ export const infoAccordionItems = [
         <br />
         <br />
         <p>
-          <strong>Технологии и инструменты</strong>
+          <strong>Технологии и инструменты:</strong>
         </p>
 
         <br />
@@ -1153,7 +1153,7 @@ export const infoAccordionItems = [
         <br />
         <br />
         <p>
-          <strong>Этапы реализации</strong>
+          <strong>Этапы реализации:</strong>
         </p>
 
         <br />
@@ -1205,7 +1205,7 @@ export const infoAccordionItems = [
         <br />
         <br />
         <p>
-          <strong>Оптимизационная задача</strong>
+          <strong>Оптимизационная задача:</strong>
         </p>
 
         <br />
@@ -1222,7 +1222,7 @@ export const infoAccordionItems = [
         <br />
         <br />
         <p>
-          <strong>Визуализация</strong>
+          <strong>Визуализация:</strong>
         </p>
 
         <br />
@@ -1240,7 +1240,7 @@ export const infoAccordionItems = [
         <br />
         <br />
         <p>
-          <strong>Результаты</strong>
+          <strong>Результаты:</strong>
         </p>
 
         <br />
@@ -1257,7 +1257,7 @@ export const infoAccordionItems = [
         <br />
         <br />
         <p>
-          <strong>Заключение</strong>
+          <strong>Заключение:</strong>
         </p>
 
         <br />
