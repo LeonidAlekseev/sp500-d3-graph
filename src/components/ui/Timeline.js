@@ -1,12 +1,10 @@
 import React from "react";
 
-export default function Timeline({ data }) {
+export default function Timeline({ title, data }) {
   return (
     <div className="relative w-screen overflow-x-clip">
       <div className="p-4 text-center">
-        <span className="text-lg font-bold text-neutral-700">
-          Изменения сети в дискретном времени
-        </span>
+        <span className="text-lg font-bold text-neutral-700">{title}</span>
       </div>
       <div className="w-screen overflow-x-scroll overscroll-x-none">
         <div className="w-fit">

@@ -1,13 +1,13 @@
 "use client";
 
 import * as d3 from "d3";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, memo } from "react";
 import Image from "next/image";
 
 const formatter = new Intl.NumberFormat("de-DE");
 const color = d3.scaleOrdinal(d3.schemeCategory10);
 
-export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
+const PureGraphPlot = ({ nodes, links, width = 500, height = 500 }) => {
   const svgRef = useRef();
   const simulationRef = useRef();
   const tooltipRef = useRef();
@@ -78,7 +78,7 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
       .data(nodes)
       .join("circle")
       .attr("r", (d) => Math.max(5, Math.log(d.totalVolume) - 15) || 5)
-      .attr("fill", (d) => color(d.sectorId) || "#2077B4")
+      .attr("fill", (d) => color(d.sectorId) || "steelblue")
       .attr("stroke", "#fff")
       .attr("stroke-width", 1.5)
       .call(
@@ -89,16 +89,20 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
           .on("end", dragended)
       )
       .on("mouseover", (event, d) => {
-        tooltip
-          .style("visibility", "visible")
-          .html(
-            `Тикер: ${d.id}<br>Объем: $${formatter.format(
-              d.totalVolume
-            )}<br>Сектор: ${d.sector}<br>Компания: ${d.name}`
-          );
+        tooltip.style("visibility", "visible").html(
+          `
+          <strong>${d.id}</strong><br>
+          Name: ${d.name}<br>
+          Sector: ${d.sector}<br>
+          Last Price: $${formatter.format(d.lastPrice)}<br>
+          Mean Price: $${formatter.format(d.meanPrice)}<br>
+          Min Price: $${formatter.format(d.minPrice)}<br>
+          Max Price: $${formatter.format(d.maxPrice)}<br>
+          Total Volume: $${formatter.format(d.totalVolume)}
+        `
+        );
       })
       .on("mousemove", (event) => {
-        console.log(event);
         tooltip
           .style("top", event.layerY + 20 + "px")
           .style("left", event.layerX - 150 + "px");
@@ -157,7 +161,7 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
           <Image
             className="dark:invert"
             src="/play.svg"
-            alt="Сбросить отображение"
+            alt="Запуск"
             width={24}
             height={24}
             priority
@@ -195,4 +199,6 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
       </div>
     </div>
   );
-}
+};
+
+export const GraphPlot = memo(PureGraphPlot);

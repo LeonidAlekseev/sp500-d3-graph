@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Timeline from "@/components/ui/Timeline";
-import GraphPlot from "@/components/plot/Graph";
+import { useEffect, useState, useMemo } from "react";
 import Spinner from "@/components/ui/Loader";
 import Accordion from "@/components/ui/Accordion";
+import Timeline from "@/components/ui/Timeline";
+import { GraphPlot } from "@/components/plot/Graph";
+import { CircularGraphPlot } from "@/components/plot/CircularGraph";
 
 const Page = () => {
   const [nodes, setNodes] = useState([]);
@@ -48,11 +49,32 @@ const Page = () => {
   }, []);
 
   const years = Object.keys(nodes);
-  // const years = [2021, 2022, 2023, 2024];
-  const timelineData = years.map((year) => ({
-    title: year,
-    element: <GraphPlot nodes={nodes[year]} links={links[year]} />,
-  }));
+
+  // Мемоизация данных для CircularGraphPlot
+  const timelineDataCircularGraph = useMemo(() => {
+    return years.map((year) => ({
+      title: year,
+      element: (
+        <CircularGraphPlot
+          nodes={[...nodes[year]]} // Используйте мемоизированные данные
+          links={[...links[year]]}
+        />
+      ),
+    }));
+  }, [nodes, links, years]);
+
+  // Мемоизация данных для GraphPlot
+  // const timelineDataGraph = useMemo(() => {
+  //   return years.map((year) => ({
+  //     title: year,
+  //     element: (
+  //       <GraphPlot
+  //         nodes={[...nodes[year]]} // Используйте мемоизированные данные
+  //         links={[...links[year]]}
+  //       />
+  //     ),
+  //   }));
+  // }, [nodes, links, years]);
 
   const infoAccordionItems = [
     {
@@ -122,7 +144,20 @@ const Page = () => {
       ) : error ? (
         <span className="p-4">Ошибка</span>
       ) : (
-        <Timeline data={timelineData} />
+        <>
+          <Timeline
+            title={
+              "Изменения сети в дискретном времени с круговой визуализацией графа"
+            }
+            data={timelineDataCircularGraph}
+          />
+          {/* <Timeline
+            title={
+              "Изменения сети в дискретном времени с физической симуляцией графа"
+            }
+            data={timelineDataGraph}
+          /> */}
+        </>
       )}
     </main>
   );
