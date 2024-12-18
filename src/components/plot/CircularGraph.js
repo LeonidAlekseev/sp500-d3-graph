@@ -56,7 +56,7 @@ const PureCircularGraphPlot = ({ nodes, links, width = 500, height = 500 }) => {
       .data(links)
       .join("line")
       .attr("class", "link")
-      .attr("stroke", "#999")
+      .attr("stroke", (d) => (d.subgraph ? "#ff0000" : "#999999"))
       .attr("stroke-opacity", 0.3)
       .attr(
         "stroke-width",
@@ -77,7 +77,7 @@ const PureCircularGraphPlot = ({ nodes, links, width = 500, height = 500 }) => {
       .attr("cx", (d) => d.x)
       .attr("cy", (d) => d.y)
       .attr("fill", (d) => color(d.sectorId) || "steelblue")
-      .attr("stroke", "#fff")
+      .attr("stroke", (d) => (d.subgraph ? "#ff0000" : "#ffffff"))
       .attr("stroke-width", 0.5)
       .on("mouseover", (event, d) => {
         tooltip.style("visibility", "visible").html(

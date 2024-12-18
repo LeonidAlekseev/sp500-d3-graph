@@ -65,7 +65,7 @@ const PureGraphPlot = ({ nodes, links, width = 500, height = 500 }) => {
       .selectAll()
       .data(links)
       .join("line")
-      .attr("stroke", "#999")
+      .attr("stroke", (d) => (d.subgraph ? "#ff0000" : "#999999"))
       .attr("stroke-opacity", 0.6)
       .attr(
         "stroke-width",
@@ -79,7 +79,7 @@ const PureGraphPlot = ({ nodes, links, width = 500, height = 500 }) => {
       .join("circle")
       .attr("r", (d) => Math.max(5, Math.log(d.totalVolume) - 15) || 5)
       .attr("fill", (d) => color(d.sectorId) || "steelblue")
-      .attr("stroke", "#fff")
+      .attr("stroke", (d) => (d.subgraph ? "#ff0000" : "#ffffff"))
       .attr("stroke-width", 1.5)
       .call(
         d3
