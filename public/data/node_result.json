@@ -207,7 +207,8 @@
             "meanPrice": 44.15563494061667,
             "minPrice": 34.4900016784668,
             "maxPrice": 57.34000015258789,
-            "totalVolume": 193741500.0
+            "totalVolume": 193741500.0,
+            "subgraph": "1"
         },
         {
             "id": "ALGN",
@@ -262,7 +263,8 @@
             "meanPrice": 20.055326212020148,
             "minPrice": 15.84000015258789,
             "maxPrice": 27.559999465942383,
-            "totalVolume": 288148425.0
+            "totalVolume": 288148425.0,
+            "subgraph": "1"
         },
         {
             "id": "AMGN",
@@ -768,7 +770,8 @@
             "meanPrice": 69.16980157579694,
             "minPrice": 50.5,
             "maxPrice": 94.88999938964844,
-            "totalVolume": 2155338900.0
+            "totalVolume": 2155338900.0,
+            "subgraph": "1"
         },
         {
             "id": "CB",
@@ -1725,7 +1728,8 @@
             "meanPrice": 41.947857054453046,
             "minPrice": 32.36000061035156,
             "maxPrice": 57.150001525878906,
-            "totalVolume": 450540700.0
+            "totalVolume": 450540700.0,
+            "subgraph": "1"
         },
         {
             "id": "EXPE",
@@ -1791,7 +1795,8 @@
             "meanPrice": 76.37234130738274,
             "minPrice": 61.150001525878906,
             "maxPrice": 96.86000061035156,
-            "totalVolume": 77659700.0
+            "totalVolume": 77659700.0,
+            "subgraph": "1"
         },
         {
             "id": "FDX",
@@ -1879,7 +1884,8 @@
             "meanPrice": 27.930485104757643,
             "minPrice": 22.0078067779541,
             "maxPrice": 35.572418212890625,
-            "totalVolume": 412925271.0
+            "totalVolume": 412925271.0,
+            "subgraph": "1"
         },
         {
             "id": "FRT",
@@ -2957,7 +2963,8 @@
             "meanPrice": 20.120992062583802,
             "minPrice": 17.700000762939453,
             "maxPrice": 23.915000915527344,
-            "totalVolume": 379670400.0
+            "totalVolume": 379670400.0,
+            "subgraph": "1"
         },
         {
             "id": "MKTX",
@@ -3650,7 +3657,8 @@
             "meanPrice": 34.35091266934834,
             "minPrice": 28.479999542236328,
             "maxPrice": 42.29499816894531,
-            "totalVolume": 701475800.0
+            "totalVolume": 701475800.0,
+            "subgraph": "1"
         },
         {
             "id": "PPL",
@@ -3826,7 +3834,8 @@
             "meanPrice": 61.790674588036914,
             "minPrice": 49.84000015258789,
             "maxPrice": 78.62000274658203,
-            "totalVolume": 149002500.0
+            "totalVolume": 149002500.0,
+            "subgraph": "1"
         },
         {
             "id": "ROST",
@@ -4288,7 +4297,8 @@
             "meanPrice": 15.413650773820423,
             "minPrice": 11.425000190734863,
             "maxPrice": 21.094999313354492,
-            "totalVolume": 309771800.0
+            "totalVolume": 309771800.0,
+            "subgraph": "1"
         },
         {
             "id": "TROW",
@@ -4464,7 +4474,8 @@
             "meanPrice": 38.27886912179372,
             "minPrice": 30.204999923706055,
             "maxPrice": 47.88999938964844,
-            "totalVolume": 1816370000.0
+            "totalVolume": 1816370000.0,
+            "subgraph": "1"
         },
         {
             "id": "UPS",
@@ -4827,7 +4838,8 @@
             "meanPrice": 30.678968232775492,
             "minPrice": 24.13999938964844,
             "maxPrice": 39.310001373291016,
-            "totalVolume": 60995100.0
+            "totalVolume": 60995100.0,
+            "subgraph": "1"
         }
     ],
     "2011": [
@@ -5115,7 +5127,8 @@
             "meanPrice": 53.33182536231147,
             "minPrice": 36.0,
             "maxPrice": 65.12000274658203,
-            "totalVolume": 624898400.0
+            "totalVolume": 624898400.0,
+            "subgraph": "1"
         },
         {
             "id": "AMT",
@@ -6996,7 +7009,8 @@
             "meanPrice": 69.92630925254217,
             "minPrice": 46.65999984741211,
             "maxPrice": 87.4000015258789,
-            "totalVolume": 985304300.0
+            "totalVolume": 985304300.0,
+            "subgraph": "1"
         },
         {
             "id": "HIG",
@@ -7282,7 +7296,8 @@
             "meanPrice": 21.933492100428023,
             "minPrice": 14.520000457763672,
             "maxPrice": 27.5,
-            "totalVolume": 1287051900.0
+            "totalVolume": 1287051900.0,
+            "subgraph": "1"
         },
         {
             "id": "J",
@@ -7799,7 +7814,8 @@
             "meanPrice": 34.758686277601456,
             "minPrice": 22.8253116607666,
             "maxPrice": 43.42245864868164,
-            "totalVolume": 2883940666.0
+            "totalVolume": 2883940666.0,
+            "subgraph": "1"
         },
         {
             "id": "MGM",
@@ -8173,7 +8189,8 @@
             "meanPrice": 44.781547485835965,
             "minPrice": 33.20000076293945,
             "maxPrice": 56.86000061035156,
-            "totalVolume": 510372800.0
+            "totalVolume": 510372800.0,
+            "subgraph": "1"
         },
         {
             "id": "NUE",
@@ -8393,7 +8410,8 @@
             "meanPrice": 28.323095238397993,
             "minPrice": 20.479999542236328,
             "maxPrice": 35.0,
-            "totalVolume": 728173200.0
+            "totalVolume": 728173200.0,
+            "subgraph": "1"
         },
         {
             "id": "PG",
@@ -8646,7 +8664,8 @@
             "meanPrice": 5.723531759920574,
             "minPrice": 2.819999933242798,
             "maxPrice": 8.09000015258789,
-            "totalVolume": 5203839700.0
+            "totalVolume": 5203839700.0,
+            "subgraph": "1"
         },
         {
             "id": "RJF",
@@ -8789,7 +8808,8 @@
             "meanPrice": 15.185317497404794,
             "minPrice": 10.5600004196167,
             "maxPrice": 19.690000534057617,
-            "totalVolume": 3414442000.0
+            "totalVolume": 3414442000.0,
+            "subgraph": "1"
         },
         {
             "id": "SHW",
@@ -8921,7 +8941,8 @@
             "meanPrice": 15.352738119307018,
             "minPrice": 8.779999732971191,
             "maxPrice": 20.700000762939453,
-            "totalVolume": 959722500.0
+            "totalVolume": 959722500.0,
+            "subgraph": "1"
         },
         {
             "id": "STT",
@@ -9724,7 +9745,8 @@
             "meanPrice": 37.59960313070388,
             "minPrice": 28.200000762939453,
             "maxPrice": 44.529998779296875,
-            "totalVolume": 60201200.0
+            "totalVolume": 60201200.0,
+            "subgraph": "1"
         }
     ],
     "2012": [
@@ -9957,7 +9979,8 @@
             "meanPrice": 35.42164001464844,
             "minPrice": 26.979999542236328,
             "maxPrice": 42.810001373291016,
-            "totalVolume": 1040655000.0
+            "totalVolume": 1040655000.0,
+            "subgraph": "1"
         },
         {
             "id": "AMAT",
@@ -10562,7 +10585,8 @@
             "meanPrice": 58.6792400970459,
             "minPrice": 44.619998931884766,
             "maxPrice": 72.30000305175781,
-            "totalVolume": 500121200.0
+            "totalVolume": 500121200.0,
+            "subgraph": "1"
         },
         {
             "id": "CCL",
@@ -10694,7 +10718,8 @@
             "meanPrice": 15.998100044250489,
             "minPrice": 12.140000343322754,
             "maxPrice": 19.11000061035156,
-            "totalVolume": 6562144200.0
+            "totalVolume": 6562144200.0,
+            "subgraph": "1"
         },
         {
             "id": "CME",
@@ -11035,7 +11060,8 @@
             "meanPrice": 34.84235999298096,
             "minPrice": 23.75,
             "maxPrice": 42.08000183105469,
-            "totalVolume": 1197527800.0
+            "totalVolume": 1197527800.0,
+            "subgraph": "1"
         },
         {
             "id": "DG",
@@ -11233,7 +11259,8 @@
             "meanPrice": 17.772744106292723,
             "minPrice": 12.43686866760254,
             "maxPrice": 22.369529724121097,
-            "totalVolume": 6774053461.0
+            "totalVolume": 6774053461.0,
+            "subgraph": "1"
         },
         {
             "id": "ECL",
@@ -11926,7 +11953,8 @@
             "meanPrice": 53.558679931640626,
             "minPrice": 41.91999816894531,
             "maxPrice": 65.91999816894531,
-            "totalVolume": 2391465700.0
+            "totalVolume": 2391465700.0,
+            "subgraph": "1"
         },
         {
             "id": "HES",
@@ -13752,7 +13780,8 @@
             "meanPrice": 56.5235200958252,
             "minPrice": 42.529998779296875,
             "maxPrice": 71.16999816894531,
-            "totalVolume": 368709500.0
+            "totalVolume": 368709500.0,
+            "subgraph": "1"
         },
         {
             "id": "SBUX",
@@ -14709,7 +14738,8 @@
             "meanPrice": 37.18648008728027,
             "minPrice": 31.790000915527344,
             "maxPrice": 41.880001068115234,
-            "totalVolume": 48116800.0
+            "totalVolume": 48116800.0,
+            "subgraph": "1"
         }
     ],
     "2013": [
@@ -14898,7 +14928,8 @@
             "meanPrice": 51.17468257177444,
             "minPrice": 34.83000183105469,
             "maxPrice": 66.7300033569336,
-            "totalVolume": 169329000.0
+            "totalVolume": 169329000.0,
+            "subgraph": "1"
         },
         {
             "id": "AJG",
@@ -15030,7 +15061,8 @@
             "meanPrice": 84.71329348427909,
             "minPrice": 63.59000015258789,
             "maxPrice": 115.36000061035156,
-            "totalVolume": 304976700.0
+            "totalVolume": 304976700.0,
+            "subgraph": "1"
         },
         {
             "id": "AMT",
@@ -15239,7 +15271,8 @@
             "meanPrice": 103.10956355503627,
             "minPrice": 72.68000030517578,
             "maxPrice": 142.0,
-            "totalVolume": 1307251600.0
+            "totalVolume": 1307251600.0,
+            "subgraph": "1"
         },
         {
             "id": "BAC",
@@ -15360,7 +15393,8 @@
             "meanPrice": 877.9541662307013,
             "minPrice": 627.6699829101562,
             "maxPrice": 1198.75,
-            "totalVolume": 159852100.0
+            "totalVolume": 159852100.0,
+            "subgraph": "1"
         },
         {
             "id": "BKR",
@@ -15822,7 +15856,8 @@
             "meanPrice": 56.84206349509103,
             "minPrice": 43.0099983215332,
             "maxPrice": 71.37999725341797,
-            "totalVolume": 501848700.0
+            "totalVolume": 501848700.0,
+            "subgraph": "1"
         },
         {
             "id": "COST",
@@ -16009,7 +16044,8 @@
             "meanPrice": 20.004801568530855,
             "minPrice": 11.970000267028809,
             "maxPrice": 29.440000534057617,
-            "totalVolume": 3462896200.0
+            "totalVolume": 3462896200.0,
+            "subgraph": "1"
         },
         {
             "id": "DD",
@@ -16262,7 +16298,8 @@
             "meanPrice": 89.45686506846594,
             "minPrice": 71.98999786376953,
             "maxPrice": 108.33999633789062,
-            "totalVolume": 256717700.0
+            "totalVolume": 256717700.0,
+            "subgraph": "1"
         },
         {
             "id": "ED",
@@ -16757,7 +16794,8 @@
             "meanPrice": 56.060476136586026,
             "minPrice": 36.935001373291016,
             "maxPrice": 76.11000061035156,
-            "totalVolume": 2508223200.0
+            "totalVolume": 2508223200.0,
+            "subgraph": "1"
         },
         {
             "id": "GIS",
@@ -16977,7 +17015,8 @@
             "meanPrice": 60.71746037498353,
             "minPrice": 43.029998779296875,
             "maxPrice": 93.04000091552734,
-            "totalVolume": 68318700.0
+            "totalVolume": 68318700.0,
+            "subgraph": "1"
         },
         {
             "id": "HLT",
@@ -17043,7 +17082,8 @@
             "meanPrice": 38.89634292844742,
             "minPrice": 31.996078491210938,
             "maxPrice": 45.51764678955078,
-            "totalVolume": 244176015.0
+            "totalVolume": 244176015.0,
+            "subgraph": "1"
         },
         {
             "id": "HST",
@@ -17318,7 +17358,8 @@
             "meanPrice": 48.87936513386075,
             "minPrice": 37.900001525878906,
             "maxPrice": 59.369998931884766,
-            "totalVolume": 78344900.0
+            "totalVolume": 78344900.0,
+            "subgraph": "1"
         },
         {
             "id": "JNJ",
@@ -17571,7 +17612,8 @@
             "meanPrice": 112.86404758029514,
             "minPrice": 85.87999725341797,
             "maxPrice": 149.99000549316406,
-            "totalVolume": 482090800.0
+            "totalVolume": 482090800.0,
+            "subgraph": "1"
         },
         {
             "id": "LNT",
@@ -17857,7 +17899,8 @@
             "meanPrice": 41.0078176165384,
             "minPrice": 34.43000030517578,
             "maxPrice": 48.560001373291016,
-            "totalVolume": 622422500.0
+            "totalVolume": 622422500.0,
+            "subgraph": "1"
         },
         {
             "id": "MMM",
@@ -17868,7 +17911,8 @@
             "meanPrice": 95.09157513815259,
             "minPrice": 78.56187438964844,
             "maxPrice": 117.41638946533205,
-            "totalVolume": 797551400.0
+            "totalVolume": 797551400.0,
+            "subgraph": "1"
         },
         {
             "id": "MNST",
@@ -18132,7 +18176,8 @@
             "meanPrice": 86.34107126508441,
             "minPrice": 64.19999694824219,
             "maxPrice": 116.19000244140624,
-            "totalVolume": 396061200.0
+            "totalVolume": 396061200.0,
+            "subgraph": "1"
         },
         {
             "id": "NOW",
@@ -18363,7 +18408,8 @@
             "meanPrice": 50.76603170425173,
             "minPrice": 37.43000030517578,
             "maxPrice": 64.05999755859375,
-            "totalVolume": 1356005000.0
+            "totalVolume": 1356005000.0,
+            "subgraph": "1"
         },
         {
             "id": "PAYX",
@@ -18374,7 +18420,8 @@
             "meanPrice": 38.12011922351898,
             "minPrice": 31.469999313354492,
             "maxPrice": 45.939998626708984,
-            "totalVolume": 588236300.0
+            "totalVolume": 588236300.0,
+            "subgraph": "1"
         },
         {
             "id": "PCAR",
@@ -18440,7 +18487,8 @@
             "meanPrice": 39.4228968923054,
             "minPrice": 28.75,
             "maxPrice": 50.970001220703125,
-            "totalVolume": 365513500.0
+            "totalVolume": 365513500.0,
+            "subgraph": "1"
         },
         {
             "id": "PG",
@@ -18495,7 +18543,8 @@
             "meanPrice": 50.986071420094326,
             "minPrice": 37.86000061035156,
             "maxPrice": 64.38999938964844,
-            "totalVolume": 220485700.0
+            "totalVolume": 220485700.0,
+            "subgraph": "1"
         },
         {
             "id": "PLD",
@@ -18902,7 +18951,8 @@
             "meanPrice": 92.13519826011053,
             "minPrice": 76.5999984741211,
             "maxPrice": 109.73999786376952,
-            "totalVolume": 68308200.0
+            "totalVolume": 68308200.0,
+            "subgraph": "1"
         },
         {
             "id": "SNPS",
@@ -19265,7 +19315,8 @@
             "meanPrice": 59.7097222767179,
             "minPrice": 44.27000045776367,
             "maxPrice": 78.16999816894531,
-            "totalVolume": 270974600.0
+            "totalVolume": 270974600.0,
+            "subgraph": "1"
         },
         {
             "id": "TSLA",
@@ -19320,7 +19371,8 @@
             "meanPrice": 37.607420641278466,
             "minPrice": 31.38999938964844,
             "maxPrice": 44.09000015258789,
-            "totalVolume": 1913098900.0
+            "totalVolume": 1913098900.0,
+            "subgraph": "1"
         },
         {
             "id": "TXT",
@@ -19342,7 +19394,8 @@
             "meanPrice": 73.82484134795173,
             "minPrice": 48.86000061035156,
             "maxPrice": 105.73999786376952,
-            "totalVolume": 39609300.0
+            "totalVolume": 39609300.0,
+            "subgraph": "1"
         },
         {
             "id": "UAL",
@@ -19551,7 +19604,8 @@
             "meanPrice": 56.73146829150972,
             "minPrice": 44.040000915527344,
             "maxPrice": 77.63999938964844,
-            "totalVolume": 130308500.0
+            "totalVolume": 130308500.0,
+            "subgraph": "1"
         },
         {
             "id": "WAT",
@@ -19683,7 +19737,8 @@
             "meanPrice": 37.022579511006676,
             "minPrice": 27.30500030517578,
             "maxPrice": 50.599998474121094,
-            "totalVolume": 67729500.0
+            "totalVolume": 67729500.0,
+            "subgraph": "1"
         },
         {
             "id": "WTW",
@@ -19793,7 +19848,8 @@
             "meanPrice": 31.884502163181057,
             "minPrice": 28.809999465942383,
             "maxPrice": 35.41999816894531,
-            "totalVolume": 1136413700.0
+            "totalVolume": 1136413700.0,
+            "subgraph": "1"
         }
     ],
     "2014": [
@@ -20257,7 +20313,8 @@
             "meanPrice": 142.55916668119886,
             "minPrice": 114.16000366210938,
             "maxPrice": 170.13999938964844,
-            "totalVolume": 210226300.0
+            "totalVolume": 210226300.0,
+            "subgraph": "1"
         },
         {
             "id": "AVGO",
@@ -20576,7 +20633,8 @@
             "meanPrice": 118.45519846961612,
             "minPrice": 99.5500030517578,
             "maxPrice": 137.14999389648438,
-            "totalVolume": 197141000.0
+            "totalVolume": 197141000.0,
+            "subgraph": "1"
         },
         {
             "id": "C",
@@ -21533,7 +21591,8 @@
             "meanPrice": 62.82249992612808,
             "minPrice": 51.54999923706055,
             "maxPrice": 74.72000122070312,
-            "totalVolume": 471581700.0
+            "totalVolume": 471581700.0,
+            "subgraph": "1"
         },
         {
             "id": "EQT",
@@ -21665,7 +21724,8 @@
             "meanPrice": 52.06730161394392,
             "minPrice": 41.47999954223633,
             "maxPrice": 60.560001373291016,
-            "totalVolume": 181621400.0
+            "totalVolume": 181621400.0,
+            "subgraph": "1"
         },
         {
             "id": "F",
@@ -21819,7 +21879,8 @@
             "meanPrice": 120.10353161039806,
             "minPrice": 100.37000274658205,
             "maxPrice": 137.8000030517578,
-            "totalVolume": 99330500.0
+            "totalVolume": 99330500.0,
+            "subgraph": "1"
         },
         {
             "id": "FSLR",
@@ -23832,7 +23893,8 @@
             "meanPrice": 54.71325399005224,
             "minPrice": 45.40999984741211,
             "maxPrice": 65.72000122070312,
-            "totalVolume": 120257500.0
+            "totalVolume": 120257500.0,
+            "subgraph": "1"
         },
         {
             "id": "REGN",
@@ -24085,7 +24147,8 @@
             "meanPrice": 164.68498623560345,
             "minPrice": 140.7337646484375,
             "maxPrice": 188.17999267578125,
-            "totalVolume": 348883178.0
+            "totalVolume": 348883178.0,
+            "subgraph": "1"
         },
         {
             "id": "SPGI",
@@ -24778,7 +24841,8 @@
             "meanPrice": 64.07436510116335,
             "minPrice": 52.900001525878906,
             "maxPrice": 78.16999816894531,
-            "totalVolume": 530658500.0
+            "totalVolume": 530658500.0,
+            "subgraph": "1"
         },
         {
             "id": "WFC",
@@ -24954,7 +25018,8 @@
             "meanPrice": 34.06178566766164,
             "minPrice": 28.13999938964844,
             "maxPrice": 45.2400016784668,
-            "totalVolume": 1014079400.0
+            "totalVolume": 1014079400.0,
+            "subgraph": "1"
         }
     ],
     "2015": [
@@ -26012,7 +26077,8 @@
             "meanPrice": 125.23150774032351,
             "minPrice": 84.98999786376953,
             "maxPrice": 148.0399932861328,
-            "totalVolume": 493673800.0
+            "totalVolume": 493673800.0,
+            "subgraph": "1"
         },
         {
             "id": "CMS",
@@ -27772,7 +27838,8 @@
             "meanPrice": 34.92158736122979,
             "minPrice": 14.220000267028809,
             "maxPrice": 44.709999084472656,
-            "totalVolume": 4570413000.0
+            "totalVolume": 4570413000.0,
+            "subgraph": "1"
         },
         {
             "id": "KMX",
@@ -28487,7 +28554,8 @@
             "meanPrice": 20.612380943601092,
             "minPrice": 8.800000190734863,
             "maxPrice": 27.899999618530273,
-            "totalVolume": 1460345800.0
+            "totalVolume": 1460345800.0,
+            "subgraph": "1"
         },
         {
             "id": "NSC",
@@ -29598,7 +29666,8 @@
             "meanPrice": 76.95738093058269,
             "minPrice": 23.329999923706055,
             "maxPrice": 108.62999725341795,
-            "totalVolume": 237020200.0
+            "totalVolume": 237020200.0,
+            "subgraph": "1"
         },
         {
             "id": "TRMB",
@@ -30170,7 +30239,8 @@
             "meanPrice": 46.10130953410315,
             "minPrice": 37.72999954223633,
             "maxPrice": 55.380001068115234,
-            "totalVolume": 869671700.0
+            "totalVolume": 869671700.0,
+            "subgraph": "1"
         }
     ],
     "2016": [
@@ -30436,7 +30506,8 @@
             "meanPrice": 24.707380949504792,
             "minPrice": 15.4399995803833,
             "maxPrice": 33.68000030517578,
-            "totalVolume": 3251983600.0
+            "totalVolume": 3251983600.0,
+            "subgraph": "1"
         },
         {
             "id": "AMCR",
@@ -31140,7 +31211,8 @@
             "meanPrice": 229.49678584507532,
             "minPrice": 156.1300048828125,
             "maxPrice": 294.8699951171875,
-            "totalVolume": 614456200.0
+            "totalVolume": 614456200.0,
+            "subgraph": "1"
         },
         {
             "id": "CI",
@@ -32559,7 +32631,8 @@
             "meanPrice": 11.088473649252029,
             "minPrice": 6.756532192230225,
             "maxPrice": 14.408123016357422,
-            "totalVolume": 4839300264.0
+            "totalVolume": 4839300264.0,
+            "subgraph": "1"
         },
         {
             "id": "HPQ",
@@ -32680,7 +32753,8 @@
             "meanPrice": 94.53563493395609,
             "minPrice": 63.47999954223633,
             "maxPrice": 121.7699966430664,
-            "totalVolume": 163893100.0
+            "totalVolume": 163893100.0,
+            "subgraph": "1"
         },
         {
             "id": "IEX",
@@ -32812,7 +32886,8 @@
             "meanPrice": 108.67980151706271,
             "minPrice": 79.1500015258789,
             "maxPrice": 127.98999786376952,
-            "totalVolume": 410222200.0
+            "totalVolume": 410222200.0,
+            "subgraph": "1"
         },
         {
             "id": "IVZ",
@@ -33318,7 +33393,8 @@
             "meanPrice": 26.958412745642285,
             "minPrice": 19.5049991607666,
             "maxPrice": 33.404998779296875,
-            "totalVolume": 1162052800.0
+            "totalVolume": 1162052800.0,
+            "subgraph": "1"
         },
         {
             "id": "MCK",
@@ -33615,7 +33691,8 @@
             "meanPrice": 375.5649206978934,
             "minPrice": 291.3299865722656,
             "maxPrice": 434.5,
-            "totalVolume": 53386000.0
+            "totalVolume": 53386000.0,
+            "subgraph": "1"
         },
         {
             "id": "MU",
@@ -33659,7 +33736,8 @@
             "meanPrice": 86.17162701440236,
             "minPrice": 51.88999938964844,
             "maxPrice": 115.69000244140624,
-            "totalVolume": 75674300.0
+            "totalVolume": 75674300.0,
+            "subgraph": "1"
         },
         {
             "id": "NEE",
@@ -34539,7 +34617,8 @@
             "meanPrice": 52.713015904502264,
             "minPrice": 39.2599983215332,
             "maxPrice": 62.0,
-            "totalVolume": 221081800.0
+            "totalVolume": 221081800.0,
+            "subgraph": "1"
         },
         {
             "id": "SO",
@@ -34957,7 +35036,8 @@
             "meanPrice": 63.102499855889214,
             "minPrice": 46.72999954223633,
             "maxPrice": 75.25,
-            "totalVolume": 1387324800.0
+            "totalVolume": 1387324800.0,
+            "subgraph": "1"
         },
         {
             "id": "TXT",
@@ -35397,7 +35477,8 @@
             "meanPrice": 45.07730155520969,
             "minPrice": 31.670000076293945,
             "maxPrice": 54.9900016784668,
-            "totalVolume": 330814600.0
+            "totalVolume": 330814600.0,
+            "subgraph": "1"
         },
         {
             "id": "YUM",
@@ -35441,7 +35522,8 @@
             "meanPrice": 47.833968223087375,
             "minPrice": 38.2599983215332,
             "maxPrice": 54.150001525878906,
-            "totalVolume": 947844000.0
+            "totalVolume": 947844000.0,
+            "subgraph": "1"
         }
     ],
     "2017": [
@@ -35740,7 +35822,8 @@
             "meanPrice": 61.17310760315671,
             "minPrice": 48.54999923706055,
             "maxPrice": 73.05999755859375,
-            "totalVolume": 332108700.0
+            "totalVolume": 332108700.0,
+            "subgraph": "1"
         },
         {
             "id": "AMGN",
@@ -35795,7 +35878,8 @@
             "meanPrice": 9.959723597978691,
             "minPrice": 5.458125114440918,
             "maxPrice": 15.353124618530272,
-            "totalVolume": 3301852800.0
+            "totalVolume": 3301852800.0,
+            "subgraph": "1"
         },
         {
             "id": "ANSS",
@@ -35861,7 +35945,8 @@
             "meanPrice": 19.30696210823211,
             "minPrice": 16.5,
             "maxPrice": 22.815000534057617,
-            "totalVolume": 1144411600.0
+            "totalVolume": 1144411600.0,
+            "subgraph": "1"
         },
         {
             "id": "APTV",
@@ -35927,7 +36012,8 @@
             "meanPrice": 90.9378884912012,
             "minPrice": 69.52999877929688,
             "maxPrice": 117.91999816894533,
-            "totalVolume": 164904800.0
+            "totalVolume": 164904800.0,
+            "subgraph": "1"
         },
         {
             "id": "AWK",
@@ -36158,7 +36244,8 @@
             "meanPrice": 76.09314758179197,
             "minPrice": 65.22000122070312,
             "maxPrice": 92.44000244140624,
-            "totalVolume": 116514500.0
+            "totalVolume": 116514500.0,
+            "subgraph": "1"
         },
         {
             "id": "BRK-B",
@@ -36290,7 +36377,8 @@
             "meanPrice": 93.31268161606503,
             "minPrice": 70.94918060302734,
             "maxPrice": 126.89754486083984,
-            "totalVolume": 278296400.0
+            "totalVolume": 278296400.0,
+            "subgraph": "1"
         },
         {
             "id": "CBRE",
@@ -36334,7 +36422,8 @@
             "meanPrice": 35.59657378025739,
             "minPrice": 25.239999771118164,
             "maxPrice": 45.63999938964844,
-            "totalVolume": 589857300.0
+            "totalVolume": 589857300.0,
+            "subgraph": "1"
         },
         {
             "id": "CDW",
@@ -36422,7 +36511,8 @@
             "meanPrice": 171.37099636123475,
             "minPrice": 133.52000427246094,
             "maxPrice": 212.4600067138672,
-            "totalVolume": 337942800.0
+            "totalVolume": 337942800.0,
+            "subgraph": "1"
         },
         {
             "id": "CINF",
@@ -36653,7 +36743,8 @@
             "meanPrice": 90.25948193918661,
             "minPrice": 69.0,
             "maxPrice": 109.19000244140624,
-            "totalVolume": 1106801900.0
+            "totalVolume": 1106801900.0,
+            "subgraph": "1"
         },
         {
             "id": "CSCO",
@@ -37104,7 +37195,8 @@
             "meanPrice": 99.3532268630556,
             "minPrice": 76.33999633789062,
             "maxPrice": 130.36000061035156,
-            "totalVolume": 475066600.0
+            "totalVolume": 475066600.0,
+            "subgraph": "1"
         },
         {
             "id": "ELV",
@@ -37819,7 +37911,8 @@
             "meanPrice": 129.11560812414405,
             "minPrice": 110.7583999633789,
             "maxPrice": 150.1890106201172,
-            "totalVolume": 714744629.0
+            "totalVolume": 714744629.0,
+            "subgraph": "1"
         },
         {
             "id": "HPE",
@@ -38556,7 +38649,8 @@
             "meanPrice": 127.38613557245627,
             "minPrice": 104.01000213623048,
             "maxPrice": 154.64999389648438,
-            "totalVolume": 800708100.0
+            "totalVolume": 800708100.0,
+            "subgraph": "1"
         },
         {
             "id": "MAA",
@@ -38853,7 +38947,8 @@
             "meanPrice": 106.81788838907067,
             "minPrice": 78.4000015258789,
             "maxPrice": 130.5800018310547,
-            "totalVolume": 126296300.0
+            "totalVolume": 126296300.0,
+            "subgraph": "1"
         },
         {
             "id": "MSFT",
@@ -38864,7 +38959,8 @@
             "meanPrice": 71.98402421502954,
             "minPrice": 61.95000076293945,
             "maxPrice": 87.5,
-            "totalVolume": 5631478600.0
+            "totalVolume": 5631478600.0,
+            "subgraph": "1"
         },
         {
             "id": "MSI",
@@ -39106,7 +39202,8 @@
             "meanPrice": 2523.185931566702,
             "minPrice": 1631.780029296875,
             "maxPrice": 3536.969970703125,
-            "totalVolume": 7108700.0
+            "totalVolume": 7108700.0,
+            "subgraph": "1"
         },
         {
             "id": "NWS",
@@ -39557,7 +39654,8 @@
             "meanPrice": 55.855099590651065,
             "minPrice": 39.02000045776367,
             "maxPrice": 79.38500213623047,
-            "totalVolume": 1956855000.0
+            "totalVolume": 1956855000.0,
+            "subgraph": "1"
         },
         {
             "id": "QCOM",
@@ -39942,7 +40040,8 @@
             "meanPrice": 142.58051871493518,
             "minPrice": 114.86000061035156,
             "maxPrice": 170.89999389648438,
-            "totalVolume": 238037500.0
+            "totalVolume": 238037500.0,
+            "subgraph": "1"
         },
         {
             "id": "SWKS",
@@ -40382,7 +40481,8 @@
             "meanPrice": 97.71880489516543,
             "minPrice": 78.48999786376953,
             "maxPrice": 114.91999816894533,
-            "totalVolume": 1927191200.0
+            "totalVolume": 1927191200.0,
+            "subgraph": "1"
         },
         {
             "id": "VLO",
@@ -40426,7 +40526,8 @@
             "meanPrice": 96.47976100967225,
             "minPrice": 76.44999694824219,
             "maxPrice": 118.27999877929688,
-            "totalVolume": 203019800.0
+            "totalVolume": 203019800.0,
+            "subgraph": "1"
         },
         {
             "id": "VRTX",
@@ -40734,7 +40835,8 @@
             "meanPrice": 61.13003974701779,
             "minPrice": 52.0,
             "maxPrice": 73.58000183105469,
-            "totalVolume": 676894500.0
+            "totalVolume": 676894500.0,
+            "subgraph": "1"
         }
     ],
     "2018": [
@@ -41121,7 +41223,8 @@
             "meanPrice": 58.03266940173875,
             "minPrice": 40.34000015258789,
             "maxPrice": 68.38999938964844,
-            "totalVolume": 367497200.0
+            "totalVolume": 367497200.0,
+            "subgraph": "1"
         },
         {
             "id": "APA",
@@ -41429,7 +41532,8 @@
             "meanPrice": 492.98709033494924,
             "minPrice": 360.7900085449219,
             "maxPrice": 594.52001953125,
-            "totalVolume": 172667600.0
+            "totalVolume": 172667600.0,
+            "subgraph": "1"
         },
         {
             "id": "BMY",
@@ -45224,7 +45328,8 @@
             "meanPrice": 90.78342621639905,
             "minPrice": 57.869998931884766,
             "maxPrice": 114.2699966430664,
-            "totalVolume": 589024000.0
+            "totalVolume": 589024000.0,
+            "subgraph": "1"
         },
         {
             "id": "STX",
@@ -45367,7 +45472,8 @@
             "meanPrice": 91.39458167695429,
             "minPrice": 69.83999633789062,
             "maxPrice": 108.2300033569336,
-            "totalVolume": 484928900.0
+            "totalVolume": 484928900.0,
+            "subgraph": "1"
         },
         {
             "id": "TER",
@@ -46060,7 +46166,8 @@
             "meanPrice": 85.54199197472803,
             "minPrice": 70.19999694824219,
             "maxPrice": 96.56999969482422,
-            "totalVolume": 628299900.0
+            "totalVolume": 628299900.0,
+            "subgraph": "1"
         }
     ],
     "2019": [
@@ -47129,7 +47236,8 @@
             "meanPrice": 58.04246033562554,
             "minPrice": 47.970001220703125,
             "maxPrice": 65.30999755859375,
-            "totalVolume": 503380500.0
+            "totalVolume": 503380500.0,
+            "subgraph": "1"
         },
         {
             "id": "CNC",
@@ -47844,7 +47952,8 @@
             "meanPrice": 497.67940497019936,
             "minPrice": 343.5799865722656,
             "maxPrice": 609.969970703125,
-            "totalVolume": 109761800.0
+            "totalVolume": 109761800.0,
+            "subgraph": "1"
         },
         {
             "id": "EQR",
@@ -47921,7 +48030,8 @@
             "meanPrice": 51.97730156731984,
             "minPrice": 41.619998931884766,
             "maxPrice": 61.04499816894531,
-            "totalVolume": 739414600.0
+            "totalVolume": 739414600.0,
+            "subgraph": "1"
         },
         {
             "id": "EVRG",
@@ -48702,7 +48812,8 @@
             "meanPrice": 26.57115084027487,
             "minPrice": 19.56999969482422,
             "maxPrice": 31.31999969482422,
-            "totalVolume": 1030900800.0
+            "totalVolume": 1030900800.0,
+            "subgraph": "1"
         },
         {
             "id": "IP",
@@ -49142,7 +49253,8 @@
             "meanPrice": 49.29404765840561,
             "minPrice": 40.75,
             "maxPrice": 55.400001525878906,
-            "totalVolume": 339292800.0
+            "totalVolume": 339292800.0,
+            "subgraph": "1"
         },
         {
             "id": "LOW",
@@ -49417,7 +49529,8 @@
             "meanPrice": 229.85134911915614,
             "minPrice": 167.6199951171875,
             "maxPrice": 281.1700134277344,
-            "totalVolume": 151998800.0
+            "totalVolume": 151998800.0,
+            "subgraph": "1"
         },
         {
             "id": "MMC",
@@ -49659,7 +49772,8 @@
             "meanPrice": 51.94034718710279,
             "minPrice": 42.165000915527344,
             "maxPrice": 61.252498626708984,
-            "totalVolume": 1964612400.0
+            "totalVolume": 1964612400.0,
+            "subgraph": "1"
         },
         {
             "id": "NEM",
@@ -50044,7 +50158,8 @@
             "meanPrice": 111.29293680947924,
             "minPrice": 89.08000183105469,
             "maxPrice": 126.5999984741211,
-            "totalVolume": 1907446100.0
+            "totalVolume": 1907446100.0,
+            "subgraph": "1"
         },
         {
             "id": "PGR",
@@ -50539,7 +50654,8 @@
             "meanPrice": 55.708214366246786,
             "minPrice": 43.2599983215332,
             "maxPrice": 64.26000213623047,
-            "totalVolume": 1160601200.0
+            "totalVolume": 1160601200.0,
+            "subgraph": "1"
         },
         {
             "id": "SPG",
@@ -51452,7 +51568,8 @@
             "meanPrice": 110.37313497634162,
             "minPrice": 81.37000274658203,
             "maxPrice": 133.66000366210938,
-            "totalVolume": 531567200.0
+            "totalVolume": 531567200.0,
+            "subgraph": "1"
         }
     ],
     "2020": [
@@ -51883,7 +52000,8 @@
             "meanPrice": 25.837924874347188,
             "minPrice": 15.762499809265137,
             "maxPrice": 33.91999816894531,
-            "totalVolume": 1607998400.0
+            "totalVolume": 1607998400.0,
+            "subgraph": "1"
         },
         {
             "id": "APTV",
@@ -51894,7 +52012,8 @@
             "meanPrice": 85.6938735750824,
             "minPrice": 29.219999313354492,
             "maxPrice": 131.22999572753906,
-            "totalVolume": 508387400.0
+            "totalVolume": 508387400.0,
+            "subgraph": "1"
         },
         {
             "id": "ARE",
@@ -52730,7 +52849,8 @@
             "meanPrice": 24.737852450887207,
             "minPrice": 15.603333473205566,
             "maxPrice": 31.23666763305664,
-            "totalVolume": 3366635700.0
+            "totalVolume": 3366635700.0,
+            "subgraph": "1"
         },
         {
             "id": "CTAS",
@@ -53181,7 +53301,8 @@
             "meanPrice": 204.68573100576288,
             "minPrice": 137.00999450683594,
             "maxPrice": 267.20001220703125,
-            "totalVolume": 413618100.0
+            "totalVolume": 413618100.0,
+            "subgraph": "1"
         },
         {
             "id": "ELV",
@@ -53324,7 +53445,8 @@
             "meanPrice": 96.27916993454039,
             "minPrice": 56.41999816894531,
             "maxPrice": 123.66999816894533,
-            "totalVolume": 591044300.0
+            "totalVolume": 591044300.0,
+            "subgraph": "1"
         },
         {
             "id": "ETR",
@@ -54160,7 +54282,8 @@
             "meanPrice": 33.75434786528938,
             "minPrice": 17.010000228881836,
             "maxPrice": 46.82099914550781,
-            "totalVolume": 851791400.0
+            "totalVolume": 851791400.0,
+            "subgraph": "1"
         },
         {
             "id": "IRM",
@@ -55491,7 +55614,8 @@
             "meanPrice": 196.9507908576091,
             "minPrice": 93.0,
             "maxPrice": 280.2900085449219,
-            "totalVolume": 290737800.0
+            "totalVolume": 290737800.0,
+            "subgraph": "1"
         },
         {
             "id": "PHM",
@@ -55612,7 +55736,8 @@
             "meanPrice": 115.99826064882542,
             "minPrice": 69.7699966430664,
             "maxPrice": 149.8800048828125,
-            "totalVolume": 419893600.0
+            "totalVolume": 419893600.0,
+            "subgraph": "1"
         },
         {
             "id": "PPL",
@@ -56184,7 +56309,8 @@
             "meanPrice": 90.83644284938164,
             "minPrice": 48.619998931884766,
             "maxPrice": 121.2300033569336,
-            "totalVolume": 482754000.0
+            "totalVolume": 482754000.0,
+            "subgraph": "1"
         },
         {
             "id": "TER",
@@ -56888,7 +57014,8 @@
             "meanPrice": 144.7862053671373,
             "minPrice": 90.13999938964844,
             "maxPrice": 176.63999938964844,
-            "totalVolume": 512124700.0
+            "totalVolume": 512124700.0,
+            "subgraph": "1"
         }
     ],
     "2021": [
@@ -58100,7 +58227,8 @@
             "meanPrice": 135.29968246581063,
             "minPrice": 94.58999633789062,
             "maxPrice": 180.3699951171875,
-            "totalVolume": 167576700.0
+            "totalVolume": 167576700.0,
+            "subgraph": "1"
         },
         {
             "id": "CRL",
@@ -58749,7 +58877,8 @@
             "meanPrice": 305.1048807416643,
             "minPrice": 226.7899932861328,
             "maxPrice": 357.8999938964844,
-            "totalVolume": 86581000.0
+            "totalVolume": 86581000.0,
+            "subgraph": "1"
         },
         {
             "id": "ETN",
@@ -58837,7 +58966,8 @@
             "meanPrice": 161.9840476020934,
             "minPrice": 106.55999755859376,
             "maxPrice": 228.83999633789065,
-            "totalVolume": 185354900.0
+            "totalVolume": 185354900.0,
+            "subgraph": "1"
         },
         {
             "id": "F",
@@ -59167,7 +59297,8 @@
             "meanPrice": 125.53068669637044,
             "minPrice": 84.94999694824219,
             "maxPrice": 151.85000610351562,
-            "totalVolume": 6371672000.0
+            "totalVolume": 6371672000.0,
+            "subgraph": "1"
         },
         {
             "id": "GOOGL",
@@ -59178,7 +59309,8 @@
             "meanPrice": 124.22488700018988,
             "minPrice": 84.80500030517578,
             "maxPrice": 150.9665069580078,
-            "totalVolume": 7689512000.0
+            "totalVolume": 7689512000.0,
+            "subgraph": "1"
         },
         {
             "id": "GPC",
@@ -59552,7 +59684,8 @@
             "meanPrice": 36.76626985035245,
             "minPrice": 27.434999465942383,
             "maxPrice": 45.79999923706055,
-            "totalVolume": 912936900.0
+            "totalVolume": 912936900.0,
+            "subgraph": "1"
         },
         {
             "id": "IP",
@@ -59695,7 +59828,8 @@
             "meanPrice": 66.99000013442267,
             "minPrice": 45.90999984741211,
             "maxPrice": 81.7699966430664,
-            "totalVolume": 999195500.0
+            "totalVolume": 999195500.0,
+            "subgraph": "1"
         },
         {
             "id": "JKHY",
@@ -60102,7 +60236,8 @@
             "meanPrice": 172.924960212102,
             "minPrice": 122.1500015258789,
             "maxPrice": 231.6300048828125,
-            "totalVolume": 148976700.0
+            "totalVolume": 148976700.0,
+            "subgraph": "1"
         },
         {
             "id": "MAR",
@@ -60168,7 +60303,8 @@
             "meanPrice": 345.0335722423735,
             "minPrice": 261.3800048828125,
             "maxPrice": 407.94000244140625,
-            "totalVolume": 164551400.0
+            "totalVolume": 164551400.0,
+            "subgraph": "1"
         },
         {
             "id": "MDLZ",
@@ -60487,7 +60623,8 @@
             "meanPrice": 58.537182429480175,
             "minPrice": 43.56666564941406,
             "maxPrice": 71.65333557128906,
-            "totalVolume": 585523200.0
+            "totalVolume": 585523200.0,
+            "subgraph": "1"
         },
         {
             "id": "NDSN",
@@ -61081,7 +61218,8 @@
             "meanPrice": 291.0095639910017,
             "minPrice": 212.22000122070312,
             "maxPrice": 377.3599853515625,
-            "totalVolume": 181272200.0
+            "totalVolume": 181272200.0,
+            "subgraph": "1"
         },
         {
             "id": "PSX",
@@ -61433,7 +61571,8 @@
             "meanPrice": 402.8648801531111,
             "minPrice": 303.5,
             "maxPrice": 484.2099914550781,
-            "totalVolume": 348187500.0
+            "totalVolume": 348187500.0,
+            "subgraph": "1"
         },
         {
             "id": "SRE",
@@ -61873,7 +62012,8 @@
             "meanPrice": 49.628134863717214,
             "minPrice": 36.72999954223633,
             "maxPrice": 60.41999816894531,
-            "totalVolume": 465636300.0
+            "totalVolume": 465636300.0,
+            "subgraph": "1"
         },
         {
             "id": "UHS",
@@ -62324,7 +62464,8 @@
             "meanPrice": 188.6490875123039,
             "minPrice": 141.41000366210938,
             "maxPrice": 249.27000427246097,
-            "totalVolume": 428719800.0
+            "totalVolume": 428719800.0,
+            "subgraph": "1"
         }
     ],
     "2022": [
@@ -62887,7 +63028,8 @@
             "meanPrice": 37.20812742833597,
             "minPrice": 29.309999465942383,
             "maxPrice": 50.11000061035156,
-            "totalVolume": 11684143700.0
+            "totalVolume": 11684143700.0,
+            "subgraph": "1"
         },
         {
             "id": "BALL",
@@ -63294,7 +63436,8 @@
             "meanPrice": 41.68406377845552,
             "minPrice": 32.654998779296875,
             "maxPrice": 57.0,
-            "totalVolume": 1273210700.0
+            "totalVolume": 1273210700.0,
+            "subgraph": "1"
         },
         {
             "id": "CHD",
@@ -64416,7 +64559,8 @@
             "meanPrice": 38.16605566412329,
             "minPrice": 30.920000076293945,
             "maxPrice": 50.63999938964844,
-            "totalVolume": 1327321600.0
+            "totalVolume": 1327321600.0,
+            "subgraph": "1"
         },
         {
             "id": "FMC",
@@ -65230,7 +65374,8 @@
             "meanPrice": 19.89641430463449,
             "minPrice": 15.260000228881836,
             "maxPrice": 27.170000076293945,
-            "totalVolume": 2558764000.0
+            "totalVolume": 2558764000.0,
+            "subgraph": "1"
         },
         {
             "id": "KEYS",
@@ -66451,7 +66596,8 @@
             "meanPrice": 172.14717083813184,
             "minPrice": 143.52000427246094,
             "maxPrice": 228.13999938964844,
-            "totalVolume": 536712900.0
+            "totalVolume": 536712900.0,
+            "subgraph": "1"
         },
         {
             "id": "PNR",
@@ -67782,7 +67928,8 @@
             "meanPrice": 171.30792801693616,
             "minPrice": 124.1500015258789,
             "maxPrice": 243.2400054931641,
-            "totalVolume": 549233100.0
+            "totalVolume": 549233100.0,
+            "subgraph": "1"
         }
     ],
     "2023": [
@@ -69984,7 +70131,8 @@
             "meanPrice": 82.67000422668457,
             "minPrice": 52.04682922363281,
             "maxPrice": 103.11253356933594,
-            "totalVolume": 1788443042.0
+            "totalVolume": 1788443042.0,
+            "subgraph": "1"
         },
         {
             "id": "GEHC",
@@ -71139,7 +71287,8 @@
             "meanPrice": 261.4242799682617,
             "minPrice": 122.27999877929688,
             "maxPrice": 361.8999938964844,
-            "totalVolume": 6053462500.0
+            "totalVolume": 6053462500.0,
+            "subgraph": "1"
         },
         {
             "id": "MGM",
@@ -71568,7 +71717,8 @@
             "meanPrice": 36.56925994110107,
             "minPrice": 14.034000396728516,
             "maxPrice": 50.54800033569336,
-            "totalVolume": 118389365000.0
+            "totalVolume": 118389365000.0,
+            "subgraph": "1"
         },
         {
             "id": "NVR",
@@ -72734,7 +72884,8 @@
             "meanPrice": 133.9571998901367,
             "minPrice": 101.52999877929688,
             "maxPrice": 164.85000610351562,
-            "totalVolume": 420529100.0
+            "totalVolume": 420529100.0,
+            "subgraph": "1"
         },
         {
             "id": "TXN",
@@ -73262,7 +73413,8 @@
             "meanPrice": 173.88783984375,
             "minPrice": 141.52000427246094,
             "maxPrice": 201.9199981689453,
-            "totalVolume": 485415000.0
+            "totalVolume": 485415000.0,
+            "subgraph": "1"
         }
     ],
     "2024": [
@@ -73737,7 +73889,8 @@
             "meanPrice": 125.09115704623136,
             "minPrice": 110.45999908447266,
             "maxPrice": 152.64999389648438,
-            "totalVolume": 210664289.0
+            "totalVolume": 210664289.0,
+            "subgraph": "1"
         },
         {
             "id": "AVB",
@@ -73935,7 +74088,8 @@
             "meanPrice": 63.57884287243047,
             "minPrice": 51.790000915527344,
             "maxPrice": 82.72000122070312,
-            "totalVolume": 926211896.0
+            "totalVolume": 926211896.0,
+            "subgraph": "1"
         },
         {
             "id": "BKNG",
@@ -74155,7 +74309,8 @@
             "meanPrice": 103.79578519458613,
             "minPrice": 82.75,
             "maxPrice": 142.0,
-            "totalVolume": 409967019.0
+            "totalVolume": 409967019.0,
+            "subgraph": "1"
         },
         {
             "id": "CCI",
@@ -75167,7 +75322,8 @@
             "meanPrice": 58.37770648042032,
             "minPrice": 48.07500076293945,
             "maxPrice": 79.03500366210938,
-            "totalVolume": 783732339.0
+            "totalVolume": 783732339.0,
+            "subgraph": "1"
         },
         {
             "id": "EVRG",
@@ -75343,7 +75499,8 @@
             "meanPrice": 1583.9296723673167,
             "minPrice": 1105.6500244140625,
             "maxPrice": 2402.52001953125,
-            "totalVolume": 40871238.0
+            "totalVolume": 40871238.0,
+            "subgraph": "1"
         },
         {
             "id": "FIS",
@@ -76916,7 +77073,8 @@
             "meanPrice": 65.62628106046314,
             "minPrice": 54.900001525878906,
             "maxPrice": 83.7699966430664,
-            "totalVolume": 689035984.0
+            "totalVolume": 689035984.0,
+            "subgraph": "1"
         },
         {
             "id": "NDSN",
@@ -76971,7 +77129,8 @@
             "meanPrice": 30.399628189969654,
             "minPrice": 24.799999237060547,
             "maxPrice": 38.560001373291016,
-            "totalVolume": 974460993.0
+            "totalVolume": 974460993.0,
+            "subgraph": "1"
         },
         {
             "id": "NKE",
@@ -77422,7 +77581,8 @@
             "meanPrice": 168.71665267313807,
             "minPrice": 139.69000244140625,
             "maxPrice": 216.2599945068359,
-            "totalVolume": 452034923.0
+            "totalVolume": 452034923.0,
+            "subgraph": "1"
         },
         {
             "id": "PNR",
@@ -78786,7 +78946,8 @@
             "meanPrice": 179.7407442203238,
             "minPrice": 144.8000030517578,
             "maxPrice": 200.52999877929688,
-            "totalVolume": 612128670.0
+            "totalVolume": 612128670.0,
+            "subgraph": "1"
         }
     ]
 }
