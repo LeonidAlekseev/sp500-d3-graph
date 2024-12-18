@@ -1199,7 +1199,7 @@ export const infoAccordionItems = [
         <p>
           4. Развертывание:
           <br />
-          Деплой приложения на платформу Vercel.
+          Деплой приложения на платформу <tt>Vercel</tt>.
         </p>
 
         <br />
