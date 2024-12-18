@@ -6,6 +6,7 @@ import Accordion from "@/components/ui/Accordion";
 import Timeline from "@/components/ui/Timeline";
 import { GraphPlot } from "@/components/plot/Graph";
 import { CircularGraphPlot } from "@/components/plot/CircularGraph";
+import { infoAccordionItems } from "@/components/text/Info";
 
 const Page = () => {
   const [nodes, setNodes] = useState([]);
@@ -50,80 +51,15 @@ const Page = () => {
 
   const years = Object.keys(nodes);
 
-  // Мемоизация данных для CircularGraphPlot
-  const timelineDataCircularGraph = useMemo(() => {
+  // Мемоизация данных
+  const timelineDataGraph = useMemo(() => {
     return years.map((year) => ({
       title: year,
       element: (
-        <CircularGraphPlot
-          nodes={[...nodes[year]]} // Используйте мемоизированные данные
-          links={[...links[year]]}
-        />
+        <CircularGraphPlot nodes={[...nodes[year]]} links={[...links[year]]} />
       ),
     }));
   }, [nodes, links, years]);
-
-  // Мемоизация данных для GraphPlot
-  // const timelineDataGraph = useMemo(() => {
-  //   return years.map((year) => ({
-  //     title: year,
-  //     element: (
-  //       <GraphPlot
-  //         nodes={[...nodes[year]]} // Используйте мемоизированные данные
-  //         links={[...links[year]]}
-  //       />
-  //     ),
-  //   }));
-  // }, [nodes, links, years]);
-
-  const infoAccordionItems = [
-    {
-      title: "1. Описание графовой модели структуры сети",
-      content: (
-        <>
-          <p>Тут будет текст</p>
-          <p>Тут будет текст</p>
-        </>
-      ),
-    },
-    {
-      title: "2. Качественный анализ изменений решения оптимизационной задачи",
-      content: (
-        <>
-          <p>Тут будет текст</p>
-          <p>Тут будет текст</p>
-        </>
-      ),
-    },
-    {
-      title:
-        "3. Количественный анализ изменений решения оптимизационной задачи",
-      content: (
-        <>
-          <p>Тут будет текст</p>
-          <p>Тут будет текст</p>
-        </>
-      ),
-    },
-    {
-      title: "4. Интерпретация изменений решения оптимизационной задачи",
-      content: (
-        <>
-          <p>Тут будет текст</p>
-          <p>Тут будет текст</p>
-        </>
-      ),
-    },
-    {
-      title: "5. Отчет о технической реализации",
-      content: (
-        <>
-          <p>Тут будет текст</p>
-          <p>Тут будет текст</p>
-        </>
-      ),
-    },
-  ];
 
   return (
     <main>
@@ -146,17 +82,9 @@ const Page = () => {
       ) : (
         <>
           <Timeline
-            title={
-              "Изменения сети в дискретном времени с круговой визуализацией графа"
-            }
-            data={timelineDataCircularGraph}
-          />
-          {/* <Timeline
-            title={
-              "Изменения сети в дискретном времени с физической симуляцией графа"
-            }
+            title={"Изменения сети в дискретном времени"}
             data={timelineDataGraph}
-          /> */}
+          />
         </>
       )}
     </main>
