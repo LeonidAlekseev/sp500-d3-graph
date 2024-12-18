@@ -57,7 +57,7 @@ const PureCircularGraphPlot = ({ nodes, links, width = 500, height = 500 }) => {
       .join("line")
       .attr("class", "link")
       .attr("stroke", "#999")
-      .attr("stroke-opacity", 0.6)
+      .attr("stroke-opacity", 0.3)
       .attr(
         "stroke-width",
         (d) => Math.max(1, ((d.correlation - 0.95) / 0.05) * 5) || 1
