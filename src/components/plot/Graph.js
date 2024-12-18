@@ -173,6 +173,11 @@ export default function GraphPlot({ nodes, links, width = 500, height = 500 }) {
             priority
           />
         </button>
+        {!isRunning && (
+          <span className="text-[#404040] opacity-70">
+            Нажмите Play для запуска
+          </span>
+        )}
       </div>
       <div className="relative">
         <svg
